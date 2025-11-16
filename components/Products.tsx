@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 import type { Product } from '../types';
 
 const products: Product[] = [
-  { id: 1, name: 'Premium Quality Bath Towels', imageUrl: 'https://picsum.photos/seed/premiumtowel/400/500' },
+  { id: 1, name: 'Premium Quality Bath Towels', imageUrl: 'https://res.cloudinary.com/dufnwlqeq/image/upload/v1763331267/IMG-20251117-WA0014_qtmx4q.jpg' },
   { id: 2, name: 'Blackout Thermal Curtains', imageUrl: 'https://picsum.photos/seed/blackoutcurtain/400/500' },
   { id: 3, name: 'Fitted Sheets', imageUrl: 'https://picsum.photos/seed/fittedsheet/400/500' },
 ];
