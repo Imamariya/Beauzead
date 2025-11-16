@@ -4,8 +4,8 @@ import type { Product } from '../types';
 
 const products: Product[] = [
   { id: 1, name: 'Premium Quality Bath Towels', imageUrl: 'https://res.cloudinary.com/dufnwlqeq/image/upload/v1763331267/IMG-20251117-WA0014_qtmx4q.jpg' },
-  { id: 2, name: 'Blackout Thermal Curtains', imageUrl: 'https://picsum.photos/seed/blackoutcurtain/400/500' },
-  { id: 3, name: 'Fitted Sheets', imageUrl: 'https://picsum.photos/seed/fittedsheet/400/500' },
+  { id: 2, name: 'Blackout Thermal Curtains', imageUrl: 'https://res.cloudinary.com/dufnwlqeq/image/upload/v1763335509/Black_Modern_Coming_Soon_Poster_20251117_045359_0000_juuzhi.jpg' },
+  { id: 3, name: 'Fitted Sheets', imageUrl: 'https://res.cloudinary.com/dufnwlqeq/image/upload/v1763335509/Black_Modern_Coming_Soon_Poster_20251117_045359_0000_juuzhi.jpg' },
 ];
 
 const ChevronLeftIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
