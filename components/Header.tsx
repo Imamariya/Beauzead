@@ -37,7 +37,7 @@ const Header: React.FC<HeaderProps> = ({ navLinks }) => {
 
           {/* Company Name (Center) */}
           <div className="flex-shrink-0">
-            <a href="#home" aria-label="BEAUZEAD Home" className="text-2xl md:text-3xl font-bold text-[#D4AF37] tracking-wider uppercase">
+            <a href="/" aria-label="BEAUZEAD Home" className="text-2xl md:text-3xl font-bold text-[#D4AF37] tracking-wider uppercase">
               BEAUZEAD
             </a>
           </div>
