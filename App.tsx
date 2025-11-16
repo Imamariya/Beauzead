@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import AboutUs from './components/AboutUs';
@@ -13,15 +13,39 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsOfService from './components/TermsOfService';
 
 const App: React.FC = () => {
-  const path = window.location.pathname;
+  const getPathFromHash = () => {
+    // Routes are identified by a '#/' prefix.
+    // e.g., #/privacy-policy -> /privacy-policy
+    // Everything else (e.g., #about, #contact, or no hash) is the home page.
+    if (window.location.hash.startsWith('#/')) {
+      return window.location.hash.substring(1);
+    }
+    return '/';
+  };
+  
+  const [path, setPath] = useState(getPathFromHash());
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      setPath(getPathFromHash());
+      window.scrollTo(0, 0); // Scroll to top on page change
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    return () => {
+      window.removeEventListener('hashchange', handleHashChange);
+    };
+  }, []);
+
+  const isHomePage = path === '/';
 
   // If on a sub-page, nav links should point to the root with a hash for scrolling.
   const navLinks = [
-    { title: 'Home', href: path === '/' ? '#home' : '/#home' },
-    { title: 'About Us', href: path === '/' ? '#about' : '/#about' },
-    { title: 'Our Products', href: path === '/' ? '#products' : '/#products' },
-    { title: 'Why Choose Us', href: path === '/' ? '#why-us' : '/#why-us' },
-    { title: 'Contact Us', href: path === '/' ? '#contact' : '/#contact' },
+    { title: 'Home', href: isHomePage ? '#home' : '/#home' },
+    { title: 'About Us', href: isHomePage ? '#about' : '/#about' },
+    { title: 'Our Products', href: isHomePage ? '#products' : '/#products' },
+    { title: 'Why Choose Us', href: isHomePage ? '#why-us' : '/#why-us' },
+    { title: 'Contact Us', href: isHomePage ? '#contact' : '/#contact' },
   ];
   
   const renderPage = () => {

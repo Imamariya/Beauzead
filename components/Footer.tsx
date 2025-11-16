@@ -9,9 +9,9 @@ const Footer: React.FC = () => {
         </h3>
         <p className="mb-4">&copy; {new Date().getFullYear()} BEAUZEAD. All Rights Reserved.</p>
         <div className="flex justify-center space-x-6">
-          <a href="/privacy-policy" className="hover:text-[#D4AF37] transition-colors">Privacy Policy</a>
+          <a href="#/privacy-policy" className="hover:text-[#D4AF37] transition-colors">Privacy Policy</a>
           <span>|</span>
-          <a href="/terms-of-service" className="hover:text-[#D4AF37] transition-colors">Terms of Service</a>
+          <a href="#/terms-of-service" className="hover:text-[#D4AF37] transition-colors">Terms of Service</a>
         </div>
       </div>
     </footer>
