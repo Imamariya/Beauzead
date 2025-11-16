@@ -27,28 +27,28 @@ const WhyChooseUs: React.FC = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-[#D4AF37] text-center mb-12">Why Choose BEAUZEAD?</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <Feature
-            title="Unmatched Quality"
-            description="We use only the finest, sustainably sourced materials to ensure longevity and luxurious feel in every product."
+            title="Elegance Redefined"
+            description="We create products that combine modern sophistication with timeless style, helping you express your uniqueness with effortless elegance."
           />
           <Feature
-            title="Exquisite Designs"
-            description="Our collections are thoughtfully designed in the UK, reflecting both contemporary trends and timeless elegance."
+            title="Premium Quality You Can Trust"
+            description="From ingredients to design and craftsmanship, every Beauzead product is made with the highest standards for performance, comfort, and durability."
           />
           <Feature
-            title="Superior Craftsmanship"
-            description="Each item is a testament to our commitment to quality, produced with meticulous attention to detail by skilled artisans."
+            title="Thoughtfully Curated for You"
+            description="We believe beauty and lifestyle should feel personal. Our collections are thoughtfully designed to meet your real needs—functional, stylish, and made to enhance your daily routine."
           />
           <Feature
-            title="Customer-Centric"
-            description="Your satisfaction is our priority. We offer dedicated support and a seamless shopping experience."
+            title="Innovation Meets Simplicity"
+            description="At Beauzead, we blend innovation with ease of use, ensuring every product feels intuitive, accessible, and a joy to experience."
           />
           <Feature
-            title="Eco-Conscious"
-            description="We are committed to sustainable practices, from sourcing materials to our packaging, to protect our planet."
+            title="A Brand with Heart"
+            description="We care about people and the planet. Our approach emphasizes ethical sourcing, mindful production, and a dedication to empowering confidence and individuality."
           />
           <Feature
-            title="Based in the UK"
-            description="As a proud UK-based company, we understand the tastes and needs of our local clientele."
+            title="Exceptional Customer Experience"
+            description="Your satisfaction is our priority. From smooth shopping to attentive support, we ensure a seamless, enjoyable experience every step of the way."
           />
         </div>
       </div>

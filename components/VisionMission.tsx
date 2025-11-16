@@ -27,7 +27,7 @@ const VisionMission: React.FC = () => {
               <h3 className="text-2xl font-bold text-white ml-4">Our Mission</h3>
             </div>
             <p className="text-gray-300 text-justify">
-              To enrich homes across the UK by providing meticulously crafted, high-quality towels and curtains that blend functionality with artistic design, ensuring every product contributes to a more comfortable and beautiful living environment.
+              Our mission is to deliver exceptional lifestyle and beauty solutions that blend sophistication with simplicity. We aim to empower individuals to express their true selves by offering high-quality products, personalized experiences, and a commitment to excellence, sustainability, and continuous innovation.
             </p>
           </div>
           <div className="bg-gray-900 p-8 rounded-lg border border-gray-800 hover:border-[#D4AF37] transition-colors duration-300">
@@ -36,7 +36,7 @@ const VisionMission: React.FC = () => {
               <h3 className="text-2xl font-bold text-white ml-4">Our Vision</h3>
             </div>
             <p className="text-gray-300 text-justify">
-              To be the UK's most trusted and sought-after brand for luxury home textiles, synonymous with elegance, quality, and innovation, while championing sustainable practices and exceptional customer satisfaction.
+              To become a leading lifestyle and beauty brand that inspires confidence, celebrates individuality, and elevates everyday living through refined elegance, innovation, and timeless style.
             </p>
           </div>
         </div>
