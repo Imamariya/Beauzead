@@ -22,6 +22,15 @@
       ::-webkit-scrollbar-thumb:hover {
         background: #b89b3f;
       }
+      /* Offset for fixed header when scrolling to anchor links */
+      section[id] {
+        scroll-margin-top: 6rem; /* 96px for desktop */
+      }
+      @media (max-width: 767px) {
+        section[id] {
+          scroll-margin-top: 5rem; /* 80px for mobile */
+        }
+      }
     </style>
   <script type="importmap">
 {

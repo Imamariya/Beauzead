@@ -23,7 +23,7 @@ const App: React.FC = () => {
   return (
     <div className="bg-black font-sans">
       <Header navLinks={navLinks} />
-      <main>
+      <main className="pt-20 md:pt-24">
         <Hero />
         <AboutUs />
         <Products />

@@ -14,7 +14,7 @@ const Feature: React.FC<{ title: string; description: string }> = ({ title, desc
       <CheckCircleIcon className="w-6 h-6 text-[#D4AF37] flex-shrink-0 mt-1" />
       <div className="ml-4">
         <h4 className="text-xl font-semibold text-white mb-2">{title}</h4>
-        <p className="text-gray-400">{description}</p>
+        <p className="text-gray-400 text-justify">{description}</p>
       </div>
     </div>
   </div>

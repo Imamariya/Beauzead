@@ -14,7 +14,7 @@ const WhatsAppButton: React.FC = () => {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"
-      className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform duration-300 ease-in-out"
+      className="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform duration-300 ease-in-out"
     >
       <WhatsAppIcon className="w-8 h-8" />
     </a>
