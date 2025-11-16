@@ -32,17 +32,13 @@ const Header: React.FC<HeaderProps> = ({ navLinks }) => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           
-          {/* Spacer to push logo to center */}
+          {/* Spacer to push name to center */}
           <div className="flex-1"></div>
 
-          {/* Logo (Center) */}
+          {/* Company Name (Center) */}
           <div className="flex-shrink-0">
-            <a href="#home" aria-label="BEAUZEAD Home">
-              <img 
-                src="https://res.cloudinary.com/dufnwlqeq/image/upload/v1763307817/IMG-20251116-WA0021_tbcko8.jpg" 
-                alt="BEAUZEAD Logo" 
-                className="h-12 md:h-16 w-auto"
-              />
+            <a href="#home" aria-label="BEAUZEAD Home" className="text-2xl md:text-3xl font-bold text-[#D4AF37] tracking-wider uppercase">
+              BEAUZEAD
             </a>
           </div>
 
