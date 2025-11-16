@@ -11,9 +11,7 @@ const Footer: React.FC = () => {
         <div className="flex justify-center space-x-6">
           <a href="/privacy-policy" className="hover:text-[#D4AF37] transition-colors">Privacy Policy</a>
           <span>|</span>
-          <a href="#" className="hover:text-[#D4AF37] transition-colors">Terms of Service</a>
-          <span>|</span>
-          <a href="#" className="hover:text-[#D4AF37] transition-colors">Shipping & Returns</a>
+          <a href="/terms-of-service" className="hover:text-[#D4AF37] transition-colors">Terms of Service</a>
         </div>
       </div>
     </footer>

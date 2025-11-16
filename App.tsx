@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import TermsOfService from './components/TermsOfService';
 
 const App: React.FC = () => {
   const path = window.location.pathname;
@@ -26,6 +27,10 @@ const App: React.FC = () => {
   const renderPage = () => {
     if (path === '/privacy-policy') {
       return <PrivacyPolicy />;
+    }
+    
+    if (path === '/terms-of-service') {
+      return <TermsOfService />;
     }
 
     return (

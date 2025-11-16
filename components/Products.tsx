@@ -3,14 +3,9 @@ import React, { useRef } from 'react';
 import type { Product } from '../types';
 
 const products: Product[] = [
-  { id: 1, name: 'Royal Velvet Curtain', imageUrl: 'https://picsum.photos/seed/curtain1/400/500' },
-  { id: 2, name: 'Egyptian Cotton Towel Set', imageUrl: 'https://picsum.photos/seed/towel1/400/500' },
-  { id: 3, name: 'Linen Sheer Curtain', imageUrl: 'https://picsum.photos/seed/curtain2/400/500' },
-  { id: 4, name: 'Plush Spa Bath Towel', imageUrl: 'https://picsum.photos/seed/towel2/400/500' },
-  { id: 5, name: 'Blackout Thermal Curtain', imageUrl: 'https://picsum.photos/seed/curtain3/400/500' },
-  { id: 6, name: 'Bamboo Fiber Hand Towel', imageUrl: 'https://picsum.photos/seed/towel3/400/500' },
-  { id: 7, name: 'Embroidered Silk Curtain', imageUrl: 'https://picsum.photos/seed/curtain4/400/500' },
-  { id: 8, name: 'Waffle Weave Bath Sheet', imageUrl: 'https://picsum.photos/seed/towel4/400/500' },
+  { id: 1, name: 'Premium Quality Bath Towels', imageUrl: 'https://picsum.photos/seed/premiumtowel/400/500' },
+  { id: 2, name: 'Blackout Thermal Curtains', imageUrl: 'https://picsum.photos/seed/blackoutcurtain/400/500' },
+  { id: 3, name: 'Fitted Sheets', imageUrl: 'https://picsum.photos/seed/fittedsheet/400/500' },
 ];
 
 const ChevronLeftIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
