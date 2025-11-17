@@ -22,7 +22,7 @@ const ChevronRightIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
 
 const ProductCard: React.FC<{ product: Product }> = ({ product }) => (
   <div className="flex-shrink-0 w-64 md:w-72 snap-center group">
-    <div className="overflow-hidden rounded-lg shadow-lg bg-gray-900">
+    <div className="overflow-hidden rounded-lg shadow-lg bg-gray-900 border border-transparent group-hover:border-[#D4AF37] transition-all duration-300">
       <img src={product.imageUrl} alt={product.name} className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500" />
       <div className="p-4">
         <h3 className="text-lg font-semibold text-white group-hover:text-[#D4AF37] transition-colors">{product.name}</h3>

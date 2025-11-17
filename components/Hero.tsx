@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Hero: React.FC = () => {
@@ -7,11 +6,11 @@ const Hero: React.FC = () => {
   return (
     <section 
       id="home" 
-      className="relative w-full lg:h-[720px] min-h-[60vh] bg-black bg-cover bg-center bg-no-repeat"
+      className="-mt-20 md:-mt-24 relative w-full lg:h-[720px] min-h-[60vh] bg-black bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${heroImageUrl})` }}
-      aria-label="Luxury towels and curtains showcase"
+      aria-label="BEAUZEAD logo with tagline Elegance Redefined"
     >
-      {/* Intentionally empty to showcase the background image. Content can be added here later. */}
+      {/* The background image contains the hero content. bg-cover ensures it fills the space. */}
     </section>
   );
 };
